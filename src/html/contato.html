@@ -2,28 +2,95 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../assets/img/logo-senac.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../assets/css-padrao.css/styles-padrao.css">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Senac Paraná-PR Contato</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../assets/img/logo-senac.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css-padrao.css/styles-padrao.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Senac Paraná-PR Contato</title>
 </head>
-<body>
-    <header class="flex menu">
-        <img class="logo-menu" src="../assets/img/logo-senac.png" alt="Logo senac">
 
-        <nav>
-            <ol class=" container-menu__items">
-                <li class="menu-items ativo"><a href="./index.html">O Senac</a></li>
-                <li class="menu-items"><a href="./cursos.html">Cursos</a></li>
-                <li class="menu-items"><a href="./contato.html">Contatos</a></li>
-             </ol>
-        </nav>
-    </header>
+<body>
+  <header class="flex menu">
+    <img class="logo-menu" src="../assets/img/logo-senac.png" alt="Logo senac">
+
+    <nav>
+      <ol class=" container-menu__items">
+        <li class="menu-items ativo"><a href="./index.html">O Senac</a></li>
+        <li class="menu-items"><a href="./cursos.html">Cursos</a></li>
+        <li class="menu-items"><a href="./contato.html">Contato</a></li>
+      </ol>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <div>
+          <labael>Nome</labael>
+          <input type="text" name="" id="">
+        </div>
+
+        <div>
+          <labael>Sobrenome</labael>
+          <input type="text" name="" id="">
+        </div>
+
+        <div>
+          <labael>Email</labael>
+          <input type="email" name="" id="">
+        </div>
+
+        <div>
+          <labael>Telefone</labael>
+          <input type="number" name="" id="">
+        </div>
+
+        <fieldset>
+          <section>
+            <labael>Em qual Senac gostaria de participar do curso?</labael>
+            <select>
+              <option value="0" selected disabled>selecione</option>
+              <option value="">Curitiba - Centro</option>
+              <option value="">Curitiba - Portão</option>
+              <option value="">Pinhais - Centro</option>
+            </select>
+          </section>
+
+          <section>
+            <label for="">Manhã</label>
+            <input type="checkbox" name="" id="" value="manhã">
+            <label for="">Tarde</label>
+            <input type="checkbox" name="" id="" value="tarde">
+            <label for="">Noite</label>
+            <input type="checkbox" name="" id="" value="noite">
+          </section>
+        </fieldset>
+
+        <fieldset>
+          <div>
+            <label for="">Li e ACEITO a Política de Privacidade.</label>
+            <input type="checkbox" name="" id="" value="">
+          </div>
+          <div>
+            <label for="">ACEITO receber informações e conteúdos publicitários do Senac por e-mail.</label>
+            <input type="checkbox" name="" id="" value="">
+          </div>
+          <div>
+            <label for="">ACEITO receber informações e conteúdos publicitários do Senac via WhatsApp, SMS e ligações
+              telefônicas, bem como via outros meios de comunicação utilizados pela entidade.</label>
+            <input type="checkbox" name="" id="" value="">
+          </div>
+        </fieldset>
+      </fieldset>
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
 </body>
+
 </html>
