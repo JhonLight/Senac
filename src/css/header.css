@@ -1,0 +1,38 @@
+.menu{
+    background-image: url(../assets/img/fundo-menu.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 118px;
+   justify-content: space-between;
+   padding: 0px 170px 0px 133px;
+   align-items: center;
+   color: #FFFFFF
+}
+
+.logo-menu {
+    width: 80px;
+    height: 50px;
+}
+
+.container-menu__items {
+    text-align: center;
+    gap: 5vw;
+    font-size: larger
+}
+
+.menu-items {
+    padding-bottom: 10px;
+    color: #FFFFFF
+}
+
+.menu-items:hover {
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.menu-items__info{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 5px;
+}
