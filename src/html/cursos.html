@@ -10,23 +10,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="../assets/img/logo-senac.ico" type="image/x-icon">
   <link rel="stylesheet" href="../assets/css-base.css/reset.css">
-    <link rel="stylesheet" href="../assets/css-base.css/styles-padrao.css">
+  <link rel="stylesheet" href="../assets/css-base.css/styles-padrao.css">
+  <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/styles.css">
   <title>Senac Paraná-PR Cursos Técnicos e Superior</title>
 </head>
 
 <body>
   <header class="flex menu">
-    <img class="logo-menu" src="../assets/img/logo-senac.png" alt="Logo senac">
+
+    <a href="./index.html">
+        <img class="logo-menu" src="../assets/img/logo-senac.PNG" alt="Logo senac">
+    </a>
 
     <nav>
-      <ol class=" container-menu__items">
-        <li class="menu-items ativo"><a href="./index.html">O Senac</a></li>
-        <li class="menu-items"><a href="./cursos.html">Cursos</a></li>
-        <li class="menu-items"><a href="./contato.html">Contato</a></li>
-      </ol>
+        <ol class="flex container-menu__items">
+            <li ><a class="menu-items ativo" href="./index.html">O Senac</a></li>
+            <li ><a class="menu-items" href="./cursos.html">Cursos</a></li>
+            <li ><a class="menu-items" href="./contato.html">Contato</a></li>
+        </ol>
     </nav>
-  </header>
+
+    <section >
+        <p >informações sobre cursos</p>
+        <p class="menu-items__info"><strong>0800 643 6 346</strong></p>
+    </section>
+</header>
 
   <main>
     <h1>Proximas Turmas</h1>
@@ -44,20 +53,20 @@
           <td><strong>ANÁLISE DE CORES</strong></td>
           <td><i><time datetime=”07-04-2022”>28/11/2022</time></i></td>
         </tr>
-  
+
         <tr>
           <td><img src="../assets/img/business_intelligence_com_power_bi.jpg"
               alt="BUSINESS INTELLIGENCE COM MICROSOFT POWER BI"></td>
           <td><strong>BUSINESS INTELLIGENCE COM MICROSOFT POWER BI</strong></td>
           <td><i>Avise-me</i></td>
         </tr>
-  
+
         <tr>
           <td><img src="../assets/img/estilo_e_imagem_pessoal.jpg" alt="ESTILO E IMAGEM PESSOAL"></td>
           <td><strong>ESTILO E IMAGEM PESSOAL</strong></td>
           <td><i><time datetime=”07-04-2022”>28/11/2022</time></i></td>
         </tr>
-  
+
         <tr>
           <td><img src="../assets/img/introducao_a_informatica_windows,_word_e_internet.jpg"
               alt="INTRODUÇÃO À INFORMÁTICA (WINDOWS, WORD, EXCEL)"></td>
@@ -69,7 +78,8 @@
       <tfoot>
         <tr>
           <td>Compre online com</td>
-          <td><img src="../assets/img/formas_de_pagamento_disponiveis_para_os_cursos.png" alt="formas de pagamento disponível para os cursos"></td>
+          <td><img src="../assets/img/formas_de_pagamento_disponiveis_para_os_cursos.png"
+              alt="formas de pagamento disponível para os cursos"></td>
           <td><button>Entre em contato</button></td>
         </tr>
       </tfoot>

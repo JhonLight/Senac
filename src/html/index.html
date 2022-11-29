@@ -11,25 +11,34 @@
     <link rel="shortcut icon" href="../assets/img/logo-senac.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css-base.css/reset.css">
     <link rel="stylesheet" href="../assets/css-base.css/styles-padrao.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Senac Paraná-PR institucional</title>
 </head>
 
-<body >
+<body>
     <header class="flex menu">
-        <img class="logo-menu" src="../assets/img/logo-senac.PNG" alt="Logo senac">
+
+        <a href="./index.html">
+            <img class="logo-menu" src="../assets/img/logo-senac.PNG" alt="Logo senac">
+        </a>
 
         <nav>
-            <ol class=" container-menu__items">
-                <li class="menu-items ativo"><a href="./index.html">O Senac</a></li>
-                <li class="menu-items"><a href="./cursos.html">Cursos</a></li>
-                <li class="menu-items"><a href="./contato.html">Contato</a></li>
+            <ol class="flex container-menu__items">
+                <li ><a class="menu-items ativo" href="./index.html">O Senac</a></li>
+                <li ><a class="menu-items" href="./cursos.html">Cursos</a></li>
+                <li ><a class="menu-items" href="./contato.html">Contato</a></li>
             </ol>
         </nav>
+
+        <section >
+            <p >informações sobre cursos</p>
+            <p class="menu-items__info"><strong>0800 643 6 346</strong></p>
+        </section>
     </header>
 
-    <main>
-        <h1>O Serviço Nacional de Aprendizagem Comercial</h1>
+    <main class="home">
+        <h1 class="titulo">O Serviço Nacional de Aprendizagem Comercial</h1>
 
         <img src="../assets/img/predio-senac-esquina.PNG" alt="Prédio Senac">
 
@@ -46,9 +55,9 @@
             </p>
         </div>
         <hr>
-        <h2>Vantagens de ser cliente</h2>
+        <h2 class="titulo">Vantagens de ser cliente</h2>
 
-        <ul class="flex container-vantagens"  style="list-style-type:circle">
+        <ul class="flex container-vantagens" style="list-style-type:circle">
             <li>Gestão transparente</li>
             <li>Comprometimento</li>
             <li>Qualidade</li>
@@ -58,12 +67,13 @@
 
         <hr>
 
-        <h3>O que dizem os clientes?</h3>
+        <h3 class="titulo">O que dizem os clientes?</h3>
 
 
-  
+
         <p><q>Este lugar oferece cursos com uma ótima estrutura e ótimos professores.</q>
-        <cite class="autor">José Antônio</cite></p>
+            <cite class="autor">José Antônio</cite>
+        </p>
     </main>
 
 </body>
