@@ -3,6 +3,9 @@ body {
     text-align: center;
 }
 
+.ativo {
+    font-weight: bold;
+}
 
 a:active {
     color: blue;
