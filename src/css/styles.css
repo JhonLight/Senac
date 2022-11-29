@@ -1,5 +1,5 @@
 .home{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -12,18 +12,12 @@
 }
 
 .container-texto__senac{
-    width: 80%;
-    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 .container-vantagens{
-    margin: 0 auto;
-      width: 19%;
-    flex-direction: column;
-    align-items: baseline;
-    margin-bottom: 20px;
+
 }
 
-.autor{
-    font-weight: bold;
-}
+
