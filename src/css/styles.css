@@ -9,6 +9,7 @@
     color: #F7941D;
     margin-bottom: 30px;
     line-height: 43px;
+    margin-top: 43px;
 }
 
 .container-texto__senac{
@@ -16,8 +17,15 @@
     line-height: 20px;
 }
 
-.container-vantagens{
+ 
 
+.container-vantagens{
+    flex-direction: column;
+    width: max-content;
+    margin: 0 auto;
+    line-height: 34px;
 }
 
-
+.rodape{
+    background-color: #EA6230;
+}

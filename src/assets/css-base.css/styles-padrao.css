@@ -3,6 +3,10 @@ body {
     text-align: center;
 }
 
+hr{
+    margin: 40px;
+}
+
 .ativo {
     font-weight: bold;
 }
@@ -23,3 +27,4 @@ a:active {
 .column {
     flex-direction: column;
 }
+
