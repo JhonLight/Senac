@@ -26,6 +26,8 @@
     line-height: 34px;
 }
 
-.rodape{
-    background-color: #EA6230;
+.endereco::before{
+    content: url(../assets/img/localizar.svg);
+    width: 40px;
+    height: 40px;
 }
