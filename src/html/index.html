@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../assets/css-base.css/styles-padrao.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/galeria-home.css">
+    <link rel="stylesheet" href="../css/dados-basicos.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Senac Paraná-PR institucional</title>
 </head>
@@ -103,60 +104,67 @@
                 </li>
             </ul>
         </section>
-
-
-
-        <section class="dadosbasicos">
-            <table>
-                <tbody class="flex ">
-                    <tr>
-                        <td class="endereco">
-                            Rua André de Barros, 750, Centro <br>
-                            CEP 80010-080 - Curitiba - Pr
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td class="atendimento">
-                            Atendimento
-                        </td>
-                        <td>
-                            Segunda a Sexta das 8h às 20h
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td class="telefone">0800 643 6 346</td>
-                    </tr>
-
-                    <tr>
-                        <td class="email">faleconosco@pr.senac.br</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
     </main>
 
-    <article>
+    <section class="dados-basicos">
+        <table class="dados-basicos__center">
+            <tbody class="flex center dados-basicos__gap">
+                <tr>
+                    <td class="endereco">
+                        Rua André de Barros, 750, Centro <br>
+                        CEP 80010-080 - Curitiba - Pr
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><img class="dados-basicos__icone" src="../assets/img/relogio.svg" alt=""></td>
+                    <td class="atendimento">
+                        Atendimento
+                        <br>
+                        Segunda a Sexta das 8h às 20h
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img class="dados-basicos__icone" src="../assets/img/telefone.svg" alt=""></td>
+                    <td >0800 643 6 346</td>
+                </tr>
+                
+                <tr class="flex center">
+                    <td><img class="dados-basicos__icone" src="../assets/img/correspondencia.svg" alt=""></td>
+                    <td >faleconosco@pr.senac.br</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <article class="flex">
         <iframe
             src="https://www.google.com/maps/embed?pb=!3m2!1spt-PT!2sbr!4v1669988464338!5m2!1spt-PT!2sbr!6m8!1m7!1sMK2TlisUzPPVbADHeNH50g!2m2!1d-25.43369332447283!2d-49.26584764086293!3f142.5441050998044!4f-1.3224921053837875!5f0.7820865974627469"
             width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </article>
-    
-    <footer>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugiat fuga consequatur quos ducimus et
-            deserunt magni corporis delectus velit perspiciatis eligendi laborum rerum quas nemo, nihil ea, deleniti
-            reiciendis.</p>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugiat fuga consequatur quos ducimus et
-            deserunt magni corporis delectus velit perspiciatis eligendi laborum rerum quas nemo, nihil ea, deleniti
-            reiciendis.</p>
+    <footer class="flex rodape">
+        <p class="text-alin">&copy Direitos reservados - Jhon Light PR 2022</p>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugiat fuga consequatur quos ducimus et
-            deserunt magni corporis delectus velit perspiciatis eligendi laborum rerum quas nemo, nihil ea, deleniti
-            reiciendis.</p>
+        <a href="https://www.fecomerciopr.com.br/">
+        <img src="../assets/img/logo_senac_rodape.jpg" alt=""></a>
+
+        <div >
+            <i0mg src="../assets/img/facebook.png" alt="">
+            <img src="../assets/img/twitter.png" alt="">
+            <img src="../assets/img/youtube.png" alt="">
+            <img src="../assets/img/flickr.png" alt="">
+            <img src="../assets/img/instagram.png" alt="">
+            <img src="../assets/img/linkedin.png" alt="">
+            <img src="../assets/img/github.png" alt="">
+            <div class="texto-rodape" >
+                <small class="WebMail">WebMail</small>
+                <small>Portal do Colaborador</small>
+            </div>
+        </div>
+
     </footer>
 
 </body>

@@ -1,0 +1,37 @@
+.dados-basicos{
+    background-color: #3a6da1;
+    padding: 15px 0px 15px 0px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dados-basicos__center{
+    margin: 0 auto;
+}
+
+.dados-basicos__gap{
+    gap: 40px;
+}
+
+.endereco::before{
+    content: url(../assets/img/localizar.svg);
+    width: 20px;
+    height: 20px;
+    vertical-align: -webkit-baseline-middle;
+    fill: #fff;
+}
+
+.endereco{
+    width: 286px;
+}
+
+.dados-basicos__icone{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.atendimento{
+    text-align: -webkit-left;
+    line-height: 25px;
+}
