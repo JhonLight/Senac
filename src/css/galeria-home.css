@@ -1,12 +1,13 @@
 .container-galeria{
     width: 100%;
-    height: 411px;
+    height: 445px;
     position: relative;
     margin: 0 auto;
 }
 
 .empacotador-carrosel__galeria {
     overflow-x: auto;
+    height: -webkit-fill-available;
 }
 
 .empacotador-carrosel__galeria::-webkit-scrollbar {

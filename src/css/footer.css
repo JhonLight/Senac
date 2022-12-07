@@ -9,6 +9,9 @@
 .text-alin{
     align-self: center;
 }
+.color{
+    color: #fff;
+}
 
 .WebMail::after{
     content: " |";

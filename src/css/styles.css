@@ -26,14 +26,3 @@
     line-height: 34px;
 }
 
-.comentarios{
-    max-width: 10%;
-}
-
-.clientes{
-    justify-content: space-evenly;
-}
-
-.autor-comentario{
-    gap: 150px;
-}

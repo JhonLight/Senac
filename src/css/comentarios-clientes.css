@@ -1,0 +1,17 @@
+.comentarios{
+    max-width: 10%;
+}
+
+.clientes{
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.autor-comentario{
+    gap: 150px;
+    background-image: url(../assets/img/man-user.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 85px;
+}
