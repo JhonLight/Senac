@@ -1,0 +1,23 @@
+.rodape{
+    background-color: #EA6230;
+    color: #fff;
+    padding: 25px 0px 25px 0px;
+    justify-content: space-around;
+    font-size: 11px;
+}
+
+.text-alin{
+    align-self: center;
+}
+
+.WebMail::after{
+    content: " |";
+}
+
+.texto-rodape{
+    margin-top: 10px;
+}
+
+.sociais{
+    gap: 7px;
+}
