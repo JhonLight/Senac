@@ -28,3 +28,17 @@ a:active {
     flex-direction: column;
 }
 
+.home{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-weight: normal;
+    font-size: 37px;
+    color: #F7941D;
+    margin-bottom: 30px;
+    line-height: 43px;
+    margin-top: 43px;
+}
+
