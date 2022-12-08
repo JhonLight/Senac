@@ -1,0 +1,53 @@
+.container-vantagens{
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+    padding: 25px 0px 49px 0px;
+    background: url(../../assets/img/fundo_cont_parallax.jpg) 50% 0 fixed;
+ }
+
+ .vantagens-titulo{
+    font-size: 37px;
+    margin-bottom: 30px;
+    line-height: 43px;
+    margin-top: 5px;
+ }
+
+.lista-vantagens{
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 5px;
+    line-height: 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.lista-vantagens__icone{
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+}
+
+.gestao{
+    background-image: url(../../assets/img/gestao-de-dados.png);
+}
+
+.comprometimento{
+    background-image: url(../../assets/img/aperto-de-mao.png);
+}
+
+.qualidade{
+    background-image: url(../../assets/img/qualidade.png);
+}
+
+.social{
+    background-image: url(../../assets/img/inclusao.png);
+}
+
+.gratuito{
+    background-image: url(../../assets/img/educacao.png);
+}

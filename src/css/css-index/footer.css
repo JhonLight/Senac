@@ -6,21 +6,22 @@
     font-size: 11px;
 }
 
-.text-alin{
+.rodape-alin__text{
     align-self: center;
 }
-.color{
+.rodape-color{
     color: #fff;
 }
 
-.WebMail::after{
-    content: " |";
+.rodape-sociais{
+    gap: 7px;
 }
 
-.texto-rodape{
+.rodape-portal{
     margin-top: 10px;
 }
 
-.sociais{
-    gap: 7px;
+
+.rodape-WebMail::after{
+    content: " |";
 }

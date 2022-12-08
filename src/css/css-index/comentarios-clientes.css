@@ -1,13 +1,14 @@
-.comentarios{
-    max-width: 10%;
-}
-
 .clientes{
     justify-content: space-evenly;
     margin-bottom: 30px;
 }
 
-.autor-comentario{
+.clientes-comentarios{
+    max-width: 10%;
+}
+
+
+.clientes-autor__comentario{
     gap: 150px;
     background-image: url(../../assets/img/man-user.png);
     background-repeat: no-repeat;

@@ -14,16 +14,8 @@
     gap: 40px;
 }
 
-.endereco::before{
-    content: url(../assets/img/localizar.svg);
-    width: 20px;
-    height: 20px;
-    vertical-align: -webkit-baseline-middle;
-    fill: #fff;
-}
-
-.endereco{
-    width: 286px;
+.dados-basicos__endereco{
+    line-height: 25px;
 }
 
 .dados-basicos__icone{
@@ -31,7 +23,7 @@
     margin-right: 5px;
 }
 
-.atendimento{
+.dados-basicos__atendimento{
     text-align: -webkit-left;
     line-height: 25px;
 }
