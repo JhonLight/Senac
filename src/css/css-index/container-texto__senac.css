@@ -3,4 +3,38 @@
     margin-bottom: 100px;
     line-height: 20px;
     font-size: larger;
+    justify-content: space-evenly;
+}
+
+.texto-senac{
+    background-color: #f7f7f7;
+    padding: 15px 15px 5px;
+    border-bottom: solid 2px #eee;
+    border-radius: 4px;
+    height: 250px;
+    transition: all 0.4s ease-in-out;
+    font-size: 15px;
+    width: 275px;
+}
+
+.texto-senac:hover{
+    border-color: #FDA02A;
+}
+
+.texto-senac__icon{
+    background: #e67e22;
+    padding: 7px;
+    width: 34px;
+    height: 34px;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url(../../assets/img/senac-branco-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
 }
